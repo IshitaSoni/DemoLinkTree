@@ -50,8 +50,10 @@ body{
   margin: 10px;
 }
 .btn {
-  display: block;
+  display: flex;
+  align-items: c;
   width: 100%;
+  gap: 20px;
   padding: 12px;
   background-color: plum;
   color: black;
@@ -63,6 +65,9 @@ body{
   text-decoration: none;
   margin: 8px 0;
   transition: background 0.2s ease;
+}
+.container i{
+  align-self: flex-start;
 }
 
 .btn:hover {
